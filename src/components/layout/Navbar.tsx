@@ -32,6 +32,16 @@ export default function Navbar() {
       : "text-text-muted hover:text-text-heading"
   }`;
 
+  const signInClass = `rounded-full px-5 py-2 text-sm font-medium transition-colors ${
+    showDarkNav
+      ? "text-slate-300 hover:bg-white/10 hover:text-white"
+      : "text-text-muted hover:bg-slate-100 hover:text-text-heading"
+  }`;
+
+  const dividerClass = `hidden h-6 w-px md:block ${
+    showDarkNav ? "bg-white/20" : "bg-slate-300"
+  }`;
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50">
       {/* Dark overlay */}
@@ -77,6 +87,15 @@ export default function Navbar() {
             className="rounded-full bg-teal px-6 py-2.5 text-sm font-semibold text-white transition-all hover:bg-teal-light hover:shadow-lg"
           >
             Book a Demo
+          </a>
+          <span className={dividerClass} aria-hidden="true" />
+          <a
+            href="https://app.flowsurge.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={signInClass}
+          >
+            Log in
           </a>
         </div>
       </div>
