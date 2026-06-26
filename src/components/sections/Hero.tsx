@@ -52,7 +52,7 @@ function AnimatedWords({
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[85vh] items-center justify-center bg-white pt-20">
+    <section className="relative flex min-h-[80vh] items-center justify-center bg-white pt-20">
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
         <h1 className="mb-6 text-4xl font-bold leading-tight tracking-tight text-text-heading md:text-6xl lg:text-7xl">
           <AnimatedWords text="Get" />
