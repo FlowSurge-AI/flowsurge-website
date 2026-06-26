@@ -30,7 +30,7 @@ export default function Footer() {
               </a>
             </div>
             <p className="mt-2 text-xs">
-              3022 278th Pl SE, Sammamish, WA 98075
+              3022 278th Ct SE, Sammamish, WA 98075
             </p>
             <a
               href="mailto:support@flowsurge.ai"

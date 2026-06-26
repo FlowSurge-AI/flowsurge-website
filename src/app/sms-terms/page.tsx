@@ -131,7 +131,7 @@ export default function SmsTerms() {
         <p>
           <strong>FlowSurge AI</strong>
           <br />
-          3022 278th Pl SE, Sammamish, WA 98075
+          3022 278th Ct SE, Sammamish, WA 98075
           <br />
           Email:{" "}
           <a href="mailto:support@flowsurge.ai">support@flowsurge.ai</a>
