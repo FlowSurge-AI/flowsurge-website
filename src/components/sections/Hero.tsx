@@ -107,6 +107,32 @@ export default function Hero() {
           Book a Demo
         </motion.a>
       </div>
+
+      <motion.a
+        href="#solution"
+        aria-label="See how FlowSurge works"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 1.6, ease: "easeOut" }}
+        className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 text-text-muted transition-colors hover:text-teal"
+      >
+        <span className="text-sm font-medium">See how it works</span>
+        <motion.svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-hidden="true"
+          animate={{ y: [0, 6, 0] }}
+          transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <path d="m6 9 6 6 6-6" />
+        </motion.svg>
+      </motion.a>
     </section>
   );
 }
