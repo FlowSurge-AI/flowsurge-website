@@ -47,7 +47,7 @@ export default function SocialProof() {
   return (
     <section id="social-proof" className="bg-surface-dark py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="mb-16 grid gap-12 md:grid-cols-3">
+        <div className="grid gap-12 md:grid-cols-3">
           {metrics.map((metric, i) => (
             <ScrollReveal key={metric.label} delay={i * 0.15}>
               <div className="text-center">
@@ -62,12 +62,6 @@ export default function SocialProof() {
             </ScrollReveal>
           ))}
         </div>
-
-        <ScrollReveal>
-          <p className="mx-auto max-w-5xl text-center text-lg leading-relaxed text-text-body">
-            Trusted by orthodontists, periodontists, endodontists, prosthodontists, and oral surgeons every day.
-          </p>
-        </ScrollReveal>
       </div>
     </section>
   );

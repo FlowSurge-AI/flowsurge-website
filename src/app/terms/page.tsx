@@ -25,7 +25,8 @@ export default function Terms() {
       <section>
         <h2>1. About FlowSurge</h2>
         <p>
-          FlowSurge is a healthcare technology platform that helps dental and
+          FlowSurge is a healthcare technology platform operated by FlowSurge
+          LLC that helps dental and
           orthodontic practices manage patient communications, appointment
           scheduling, and operational workflows. FlowSurge sends communications
           on behalf of healthcare providers to their existing patients.
@@ -178,7 +179,7 @@ export default function Terms() {
         <h2>11. Contact Us</h2>
         <p>For questions about these Terms, please contact:</p>
         <p>
-          <strong>FlowSurge</strong>
+          <strong>FlowSurge LLC</strong>
           <br />
           Email:{" "}
           <a href="mailto:support@flowsurge.ai">support@flowsurge.ai</a>

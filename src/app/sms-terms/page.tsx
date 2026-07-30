@@ -26,7 +26,7 @@ export default function SmsTerms() {
         <h2>Program Name</h2>
         <p>
           <strong>FlowSurge Patient Communications</strong> &mdash; operated by
-          FlowSurge AI.
+          FlowSurge LLC.
         </p>
       </section>
 
@@ -129,7 +129,7 @@ export default function SmsTerms() {
           If you have questions about our SMS practices, please contact:
         </p>
         <p>
-          <strong>FlowSurge AI</strong>
+          <strong>FlowSurge LLC</strong>
           <br />
           3022 278th Ct SE, Sammamish, WA 98075
           <br />

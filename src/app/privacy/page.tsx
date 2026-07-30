@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
     >
       <div className="highlight-box">
         <p>
-          FlowSurge (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) is committed to protecting your
+          FlowSurge LLC (&ldquo;FlowSurge,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) is committed to protecting your
           personal information. This Privacy Policy explains how we collect,
           use, disclose, and safeguard information when you interact with our
           platform and SMS communications.
@@ -180,7 +180,7 @@ export default function PrivacyPolicy() {
           please contact:
         </p>
         <p>
-          <strong>FlowSurge</strong>
+          <strong>FlowSurge LLC</strong>
           <br />
           Email:{" "}
           <a href="mailto:privacy@flowsurge.ai">privacy@flowsurge.ai</a>

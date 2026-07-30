@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-6 text-center text-xs">
-          &copy; 2026 FlowSurge AI. All rights reserved.
+          &copy; 2026 FlowSurge LLC. All rights reserved.
         </div>
       </div>
     </footer>
