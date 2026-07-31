@@ -32,7 +32,7 @@ export default function Navbar() {
       : "text-text-muted hover:text-text-heading"
   }`;
 
-  const signInClass = `rounded-full px-5 py-2 text-sm font-medium transition-colors ${
+  const signInClass = `hidden rounded-full px-5 py-2 text-sm font-medium transition-colors md:block ${
     showDarkNav
       ? "text-slate-300 hover:bg-white/10 hover:text-white"
       : "text-text-muted hover:bg-slate-100 hover:text-text-heading"
