@@ -18,6 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://flowsurge.ai"),
   title: "FlowSurge AI — AI-Powered Growth for Dental Specialists",
   description:
     "AI-powered lead automation for dental specialists and oral surgeons. Automate follow-ups, eliminate missed referrals, and grow your practice with data-driven insights.",

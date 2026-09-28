@@ -4,6 +4,7 @@ import LegalLayout from "@/components/layout/LegalLayout";
 export const metadata: Metadata = {
   title: "Terms & Conditions | FlowSurge AI",
   description: "FlowSurge AI Terms & Conditions governing use of our platform and communications services.",
+  alternates: { canonical: "/terms/" },
 };
 
 export default function Terms() {

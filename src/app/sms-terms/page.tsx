@@ -4,6 +4,7 @@ import LegalLayout from "@/components/layout/LegalLayout";
 export const metadata: Metadata = {
   title: "SMS Terms & Disclosures | FlowSurge AI",
   description: "FlowSurge SMS messaging terms, CTIA disclosures, opt-out instructions, and data rates information.",
+  alternates: { canonical: "/sms-terms/" },
 };
 
 export default function SmsTerms() {

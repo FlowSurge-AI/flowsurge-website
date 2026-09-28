@@ -4,6 +4,7 @@ import LegalLayout from "@/components/layout/LegalLayout";
 export const metadata: Metadata = {
   title: "Privacy Policy | FlowSurge AI",
   description: "FlowSurge AI Privacy Policy — how we collect, use, disclose, and safeguard your information.",
+  alternates: { canonical: "/privacy/" },
 };
 
 export default function PrivacyPolicy() {
