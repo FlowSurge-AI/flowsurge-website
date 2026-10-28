@@ -36,6 +36,12 @@ export default function LegalLayout({
           padding-top: 8px;
           color: #0B1628;
         }
+        .legal-content h3 {
+          font-size: 1.05rem;
+          font-weight: 600;
+          margin: 20px 0 8px;
+          color: #0B1628;
+        }
         .legal-content p {
           margin-bottom: 14px;
           font-size: 0.95rem;
