@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Hero from "@/components/sections/Hero";
+import AiAgents from "@/components/sections/AiAgents";
 import SolutionPillars from "@/components/sections/SolutionPillars";
 import ScreenshotCarousel from "@/components/sections/ScreenshotCarousel";
 import SocialProof from "@/components/sections/SocialProof";
@@ -15,10 +16,11 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <SolutionPillars />
-      <ScreenshotCarousel />
-      <SocialProof />
+      <AiAgents />
       <Testimonials />
+      <SocialProof />
+      <ScreenshotCarousel />
+      <SolutionPillars />
       <HipaaCompliance />
       <CtaForm />
     </main>

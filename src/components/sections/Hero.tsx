@@ -109,7 +109,7 @@ export default function Hero() {
       </div>
 
       <motion.a
-        href="#solution"
+        href="#agents"
         aria-label="See how FlowSurge works"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
