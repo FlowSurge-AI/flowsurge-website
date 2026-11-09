@@ -72,7 +72,7 @@ export default function Navbar() {
           </a>
           {isHome && (
             <>
-              <a href="#solution" className={linkClass}>
+              <a href="#agents" className={linkClass}>
                 About
               </a>
               <a href="#screenshots" className={linkClass}>
