@@ -81,7 +81,7 @@ export default function Navbar() {
             </>
           )}
           <a
-            href="https://calendar.app.google/9f7TBnj7odBxppdw7"
+            href="https://cal.link/flowsurge-demo"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-teal px-6 py-2.5 text-sm font-semibold text-white transition-all hover:bg-teal-light hover:shadow-lg"

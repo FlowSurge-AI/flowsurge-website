@@ -96,7 +96,7 @@ export default function Hero() {
         </motion.p>
 
         <motion.a
-          href="https://calendar.app.google/9f7TBnj7odBxppdw7"
+          href="https://cal.link/flowsurge-demo"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: 15 }}

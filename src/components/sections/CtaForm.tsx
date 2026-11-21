@@ -15,7 +15,7 @@ export default function CtaForm() {
 
         <ScrollReveal delay={0.2}>
           <a
-            href="https://calendar.app.google/9f7TBnj7odBxppdw7"
+            href="https://cal.link/flowsurge-demo"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-full bg-teal px-8 py-4 text-lg font-semibold text-white transition-all hover:bg-teal-light hover:shadow-lg hover:shadow-teal/20"
